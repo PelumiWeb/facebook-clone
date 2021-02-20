@@ -1,0 +1,68 @@
+.CreateStatus {
+  width: 7rem;
+  height: 11rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 2px 2px rgba(128, 128, 128, 0.247);
+  padding: 3px;
+  position: relative;
+  transform: all 0.3s;
+}
+.CreateStatus::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.09);
+  z-index: 2;
+  display: none;
+  cursor: pointer;
+}
+
+.CreateStatus:hover .createStatus_imageContainer > img {
+  transform: scale(1);
+}
+
+.CreateStatus:hover::after {
+  display: block;
+}
+
+.CreateStatus-AddBakground {
+  position: absolute;
+  width: 2.8rem;
+  height: 2.8rem;
+  top: 50%;
+  left: 32.6%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.AddIcon {
+  transform: translate(41.5px, -22px);
+  padding: 5px;
+  background-color: var(--facebook-color);
+  border-radius: 50%;
+  color: #fff;
+}
+
+.createStatus_imageContainer {
+  height: 70%;
+}
+
+.createStatus_imageContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  transform: scale(0.98);
+}
+.CreateStatus > h2 {
+  font-size: 1.2rem;
+  color: gray;
+  text-align: center;
+  transform: translateY(-27px);
+}

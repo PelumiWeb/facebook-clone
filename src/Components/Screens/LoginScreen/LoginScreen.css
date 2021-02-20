@@ -1,0 +1,110 @@
+.Login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.login_wrap {
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  width: 980px;
+  display: flex;
+}
+
+.Login_left {
+  box-sizing: border-box;
+  margin-right: 0;
+  padding-right: 32px;
+  width: 580px;
+}
+
+.Login_left > h1 {
+  font-size: 3.5rem;
+  color: var(--facebook-color);
+}
+.Login_left > p {
+  line-height: 1.34;
+  font-size: 1.7rem;
+}
+
+.Login_right {
+  /* margin-right: 100px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  height: 100%;
+  width: 396px;
+}
+
+.login_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.login_input > input {
+  height: 3.5rem;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login_input > input:focus {
+  border: 1px solid var(--facebook-color);
+}
+
+.login_input > button {
+  padding: 15px;
+  background-color: var(--facebook-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login_input > button:focus {
+  outline: none;
+}
+
+.login_input > p {
+  text-align: center;
+  margin: 10px 0;
+  color: var(--facebook-color);
+  cursor: pointer;
+}
+
+.Login_right > button {
+  margin: 10px 40px;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  line-height: 38px;
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.Login_right > button:focus {
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google_btn {
+  margin: 10px 0 !important;
+}

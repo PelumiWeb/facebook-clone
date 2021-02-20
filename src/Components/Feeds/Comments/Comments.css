@@ -1,0 +1,51 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments_content {
+  display: flex;
+  align-items: center;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  background-color: var(--primary-icon);
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+.likesReply {
+  display: flex;
+  margin-left: 37px;
+  font-size: 0.7rem;
+  margin-left: 55px;
+}
+
+.likesReply > p {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.replyForm {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin: 10px 0;
+}
+
+.avatar_reply {
+  transform: translateX(200%);
+  /* font-size: 1.8rem !important; */
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+}
+
+.replyForm > input {
+  margin-left: 60px;
+  padding: 10px;
+  width: 70%;
+  border-radius: 10px;
+}

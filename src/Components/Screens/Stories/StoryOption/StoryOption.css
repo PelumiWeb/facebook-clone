@@ -1,0 +1,22 @@
+.stories {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.stories:hover {
+  background-color: var(--primary-icon);
+}
+
+.storiesAvatar {
+  display: flex;
+}
+
+.storiesName {
+  margin-left: 10px;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

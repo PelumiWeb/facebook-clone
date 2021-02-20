@@ -1,0 +1,24 @@
+.HomeScreen_body {
+  display: flex;
+}
+
+.SidebarLeft {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+  height: fit-content;
+  flex: 0.3;
+}
+
+.SidebarRight {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: fit-content;
+  flex: 0.3;
+}
+
+.Feeds {
+  flex: 0.4;
+  margin-right: 20px;
+}

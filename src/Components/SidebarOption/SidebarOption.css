@@ -1,0 +1,22 @@
+.SidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.SidebarOption:hover {
+  background-color: var(--primary-icon);
+}
+
+.SidebarOption > h4 {
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+.image {
+  width: 1.4rem;
+  height: 1.4rem;
+  object-fit: contain;
+}

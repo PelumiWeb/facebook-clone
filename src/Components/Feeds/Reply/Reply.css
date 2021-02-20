@@ -1,0 +1,23 @@
+.Reply {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 60px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.Reply > p {
+}
+
+.replyContent > h3 {
+  font-size: 0.8rem;
+}
+
+.Reply > .replyContent {
+  background-color: var(--primary-icon);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}

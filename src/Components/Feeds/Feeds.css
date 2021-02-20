@@ -1,0 +1,11 @@
+.Feeds {
+  margin-top: 10px;
+  display: flex;
+  padding: 0 15px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Post {
+  margin: 15px;
+}

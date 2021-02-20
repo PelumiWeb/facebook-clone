@@ -1,0 +1,154 @@
+.PopUp {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: fit-content;
+  width: 27rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  /* overflow-y: scroll; */
+}
+
+.PopUp_Header {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid var(--primary-icon);
+  color: var(--secondary-icon);
+}
+
+.cancel {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  cursor: pointer;
+}
+.PopUp_content {
+  padding: 10px;
+  height: 18rem;
+  overflow-y: scroll;
+}
+
+.PopUp_content-Header {
+  display: flex;
+}
+
+.header_name {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: var(--secondary-icon);
+}
+
+.friends {
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(151, 147, 147, 0.555);
+  border-radius: 5px;
+}
+
+.textarea {
+  overflow-y: hidden;
+  margin: 10px;
+  width: 25rem;
+  min-height: 3rem;
+  height: 10rem;
+  font-size: 1.4rem !important;
+  border: none;
+}
+.popUp_content-content > .image_container {
+  min-height: 5rem;
+  height: fit-content;
+  height: 15rem;
+  position: relative;
+}
+.popUp_content-content > .image_container > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Clear {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  padding: 5px;
+  background-color: var(--primary-icon);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.textarea2 {
+  overflow-y: hidden;
+  margin: 10px;
+  width: 25rem;
+  min-height: 3rem;
+  /* height: fit-content; */
+  height: max-content;
+  font-size: 1rem !important;
+  border: none;
+  text-overflow: clip;
+}
+
+.textarea2:focus {
+  outline: none;
+}
+
+.textarea::placeholder {
+  font-size: 1.3rem;
+}
+
+.textarea:focus {
+  outline: 0;
+}
+
+.popUp_footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.popUp_footer-createPost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.popUp_footer-createPost > h2 {
+  padding-left: 10px;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.attachments > .MuiSvgIcon-root {
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.popUp_footer > button {
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  background-color: var(--facebook-color);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.popUp_footer > button:disabled {
+  background-color: #80808034;
+  color: #8080808e;
+}
+
+.popUp_footer > button:focus {
+  outline: none;
+  cursor: pointer;
+}

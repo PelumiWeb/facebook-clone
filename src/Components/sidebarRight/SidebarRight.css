@@ -1,0 +1,51 @@
+.SidebarRight {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+  right: 10px;
+}
+
+.SidebarRight_Birthdays {
+  padding: 10px;
+  font-size: 0.8rem;
+  color: var(--secondary-icon);
+  border-bottom: 1px solid var(--primary-icon);
+}
+
+.SidebarRight_Birthdays > p {
+  padding: 10px 0;
+}
+
+.SidebarRight_Contacts {
+  color: var(--secondary-icon);
+  padding: 10px;
+}
+
+.SidebarRight_Contacts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SidebarRight_Contacts-header > h2 {
+  font-size: 1.2rem;
+}
+
+.search {
+  padding: 5px;
+}
+
+.verticalIcon {
+  padding: 5px;
+}
+
+.SidebarRight_Contacts-Contacts {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.SidebarRight_Contacts-Contacts > h2 {
+  margin-left: 14px;
+  font-size: 1.2rem;
+}

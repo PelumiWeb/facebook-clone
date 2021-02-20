@@ -1,0 +1,106 @@
+.Register {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 432px;
+  padding: 10px;
+  z-index: 10;
+}
+
+.Register_header {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+}
+
+.Register_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fullname {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.fullname > input {
+  padding: 10px;
+  width: 170px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border-color: var(--primary-icon);
+}
+
+.emailPassword {
+  margin: 10px;
+}
+
+.emailPassword > input {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  border-color: var(--primary-icon);
+}
+
+.dateOfBirth {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.dateOfBirth select {
+  padding: 5px 20px;
+  font-size: 15px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.gender > div {
+  border: 1px solid var(--primary-icon);
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.Register > p {
+  font-size: 0.6rem;
+  color: var(--secondary-icon);
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.button > button {
+  padding: 10px 50px;
+  border: none;
+  background-color: #42b72a;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.button > button:focus {
+  outline: none;
+}

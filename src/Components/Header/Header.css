@@ -1,0 +1,114 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  z-index: 50;
+}
+
+.header_search {
+  display: flex;
+  align-items: center;
+  background-color: #f0f2f5;
+  width: 200px;
+  padding: 5px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.header_search > input {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  background-color: inherit;
+  color: gray;
+}
+
+.header_search > input:focus {
+  outline: none;
+}
+
+.header_search-Icon {
+  color: gray;
+  width: 1.3rem;
+  margin-left: 5px;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.header_left > img {
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+}
+
+.header_middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_middle-Icon {
+  font-size: 1.5rem;
+  margin: 0 20px;
+  padding: 10px 20px;
+  color: var(--secondary-icon);
+  background-color: #fff;
+  cursor: pointer;
+}
+.header_middle-Icon:hover {
+  background-color: var(--secondary-icon-light);
+  border-radius: 5px;
+}
+
+.header_middle-Icon.active {
+  color: var(--facebook-color);
+  border-bottom: 2px solid var(--facebook-color);
+}
+
+.header_middle-Icon.active:hover {
+  background-color: inherit;
+  border-radius: 0;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_right-avatar {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.avatar {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  cursor: pointer;
+}
+
+.header_right .header_right-avatar h2 {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.header_right-icon {
+  margin: 5px;
+  padding: 7px;
+  background-color: #e4e6eb;
+  border-radius: 50%;
+  font-size: 1.1rem !important;
+  cursor: pointer;
+}
+
+.header_right-icon:hover {
+  opacity: 0.9;
+}
